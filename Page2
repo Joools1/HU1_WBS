@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Pick a pet</title>
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+<body>
+<nav></nav>
+<h2 style="text-align: center">FINDE JETZT DEIN LIEBLINGSTIER!</h2>
+<section class="container">
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <h5>Tierart</h5>
+                    <img src="Images/dog.png" class="img-fluid" alt="Hund" style="width: 20px; height:20px">
+                    <img src="Images/cat.png" class="img-fluid" alt="Katze" style="width: 20px; height:20px">
+                </div>
+                <div class="col">
+                    <h5>Geschlecht</h5>
+                    <img src="Images/female.png" class="img-fluid" alt="weiblich" style="width: 20px; height:20px">
+                    <img src="Images/maennlich.png" class="img-fluid" alt="maennlich" style="width: 20px; height:20px">
+                </div>
+            </div>
+            <p class="row">
+                <h5>Eigenschaften</h5>
+                <p>
+                <img src="Images/familienfreundlich.png" class="img-fluid" alt="familienfreundlich"
+                     style="height:20px; width: 20px;">
+                <img src="Images/vertraeglich.png" class="img-fluid" alt="vertraeglich"
+                     style="height:20px; width: 20px;">
+                <img src="Images/play.png" class="img-fluid" alt="spielen"
+                     style="height:20px; width: 20px;">
+                <img src="Images/einzelgaenger.png" class="img-fluid" alt="Einzelgänger"
+                     style="height:20px; width: 20px;">
+                <img src="Images/krank.png" class="img-fluid" alt="krank"
+                     style="height:20px; width: 20px;">
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownAgeButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Alter
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownAgeButton">
+                    <a class="dropdown-item" href="#">Junior</a>
+                    <a class="dropdown-item" href="#">Erwachsen</a>
+                    <a class="dropdown-item" href="#">Senior</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <form>
+                <label for="search"><input class="form-control" id="search" name="search" type="text"></label>
+                <img src="Images/suche.png" alt="Suche" style="width: 20px ; height:20px">
+            </form>
+        </div>
+    <hr>
+</section>
+
+
+<section class="container-md">
+    <div class="row">
+        <div class="col-md">
+            <div class="row row-cols-md-4">
+                <div class="col">
+                    <div class="card" >
+                        <img src="Images/familie1Bewertung.jpg" class="card-img-top" alt="Hunde">
+                        <div class="card-body">
+                            <h5 class="card-title">Shiva, Max, Loki</h5>
+                            <p class="card-text" >Diese drei Fellnasen sind <br>
+                                sehr abenteuerlustig und <br>wild.
+                            </p>
+                            <div class="row row-cols-4">
+                                <div class="col">
+                                    <img src="Images/familienfreundlich.png" alt="familienfreundlich" class="img-fluid" style="justify-content: center">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/play.png" alt="spielen" class="img-fluid" style="align-self: flex-start">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/maennlich.png" alt="maennlich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/female.png" alt="weiblich" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn" type="button">Details</button>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-center">
+                        <img src="Images/uebersicht3.jpg" class="card-img-top" alt="Katzen">
+                        <div class="card-body">
+                            <h5 class="card-title">Lilly, Mia, Cookie</h5>
+                            <p class="card-text">Diese drei Jungkatzen sind <br>
+                                sehr verspielt und <br> verschmust.
+                            </p>
+                            <div class="row row-cols-3">
+                                <div class="col">
+                                    <img src="Images/familienfreundlich.png" alt="familienfreundlich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/play.png" alt="spielen" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/female.png" alt="weiblich" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                                    <button class="btn" type="button">Details</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="Images/uebersicht1.jpg" class="card-img-top" alt="Hund">
+                        <div class="card-body">
+                            <h5 class="card-title">Sally</h5>
+                            <p class="card-text">Sally liebt ausgiebige <br>
+                                Krauleinheiten und ihren <br>
+                                Quietscheball.
+                            </p>
+                            <div class="row row-cols-4">
+                                <div class="col">
+                                    <img src="Images/familienfreundlich.png" alt="familienfreundlich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/vertraeglich.png" alt="vertraeglich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/play.png" alt="spielen" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/female.png" alt="weiblich" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                                    <button class="btn" type="button">Details</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="Images/familie1Bewertung.jpg" class="card-img-top" alt="Hund">
+                        <div class="card-body">
+                            <h5 class="card-title">Dwayne</h5>
+                            <p class="card-text">Dwayn ist eine treue Seele <br>
+                                und sehr Menschenbezogen. <br>
+                                Er ist eher ein Einzelgänger.
+                            </p>
+                            <div class="row row-cols-3">
+                                <div class="col">
+                                    <img src="Images/einzelgaenger.png" alt="einzelgaenger" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/play.png" alt="spielen" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/maennlich.png" alt="maennlich" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn" type="button">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <div class="row row-cols-md-4">
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="Images/familie1Bewertung.jpg" class="card-img-top" alt="Hund">
+                        <div class="card-body">
+                            <h5 class="card-title">Henry</h5>
+                            <p class="card-text">Henry ist <br>
+                                unternehmenslustig und <br>
+                                liebt lange Spaziergänge.
+                            </p>
+                            <div class="row row-cols-3">
+                                <div class="col">
+                                    <img src="Images/familienfreundlich.png" alt="familienfreundlich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/play.png" alt="spielen" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/maennlich.png" alt="maennlich" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                                    <button class="btn" type="button">Details</button>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-center">
+                        <img src="Images/familie1Bewertung.jpg" class="card-img-top" alt="Katze">
+                        <div class="card-body">
+                            <h5 class="card-title">Emmi</h5>
+                            <p class="card-text">Emmi ist durch ihre Arthrose <br>
+                                nicht mehr ganz so fit aber <br>
+                                umso liebenswerter!
+                            </p>
+                            <div class="row row-cols-4">
+                                <div class="col">
+                                    <img src="Images/familienfreundlich.png" alt="familienfreundlich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/krank.png" alt="krank" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/vertraeglich.png" alt="vertraeglich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/female.png" alt="weiblich" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                                    <button class="btn" type="button">Details</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="Images/familie1Bewertung.jpg" class="card-img-top" alt="Hunde">
+                        <div class="card-body">
+                            <h5 class="card-title">Tom und Jerry</h5>
+                            <p class="card-text">Diese beiden gibt es nur im <br>
+                                Doppelpack zu kuscheln
+                            </p>
+                            <div class="row row-cols-3">
+                                <div class="col">
+                                    <img src="Images/familienfreundlich.png" alt="familienfreundlich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/vertraeglich.png" alt="vertraeglich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/maennlich.png" alt="maennlich" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn" type="button">Details</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="Images/uebersicht2.jpg" class="card-img-top" alt="Hund">
+                        <div class="card-body">
+                            <h5 class="card-title">Theo</h5>
+                            <p class="card-text">Er ist ein aufgeschlossener <br>
+                                und verschmuster Riese. <br>
+                                Seine große Liebe: Leckerlies
+                            </p>
+                            <div class="row row-cols-4">
+                                <div class="col">
+                                    <img src="Images/familienfreundlich.png" alt="familienfreundlich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/vertraeglich.png" alt="vertraeglich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/maennlich.png" alt="maennlich" class="img-fluid">
+                                </div>
+                                <div class="col">
+                                    <img src="Images/krank.png" alt="krank" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                                    <button class="btn" type="button">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn" type="button" id="more" style="background-color: #756B5B; color: #ECF1F5">Weitere Ergebnisse</button>
+            </div>
+        </div>
+    </div>
+</section>
+<p></p>
+
+</body>
+</html>
