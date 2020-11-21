@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Pick a pet</title>
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+<body>
+<section class="container">
+    <div class="row">
+        <div class="col">
+            <img src="Images/uebersicht2.jpg" class="img-fluid" alt="Hund">
+        </div>
+        <div class="col">
+            <img src="Images/LaptopHund.jpg" class="img-fluid" alt="Hund">
+        </div>
+        <div class="col">
+            <img src="Images/uebersicht1.jpg" class="img-fluid" alt="Hund">
+        </div>
+    </div>
+    <p></p>
+    <h2 class="text-center">THEO</h2>
+    <h3 class="text-center">TIERHEIM GIESSEN</h3>
+</section>
+<section class="container">
+    <div class="row-cols-4; text-center">
+        <img src="Images/maennlich.png" class="img-fluid" alt="maennlich" style="width: 60px; height: 60px">
+        <img src="Images/familienfreundlich.png" class="img-fluid" alt="familienfreundlich"
+             style="width:60px; height: 60px">
+        <img src="Images/krank.png" class="img-fluid" alt="krank" style="width: 60px; height: 60px">
+        <img src="Images/vertraeglich.png" class="img-fluid" alt="vertraeglich" style="width: 60px; height: 60px">
+    </div>
+</section>
+<hr>
+<p class="text-center">
+    Theo ist ein verschmuster Riese. Er ist sehr Menschenbezogen und genießt seine täglichen <br>
+    Spaziergänge inklusive vieler Leckerlies. Theo liebt seine Hundefreunde sowie alle Menschen<br>
+    denen er begegnet. Zu Kindern ist er sehr aufgeschlossen, vorsichtig und freundlich. Theo hat<br>
+    schon sehr viel erlebt in seinem Leben, weshalb ihm kurze Spaziergänge völlig ausreichen.<br>
+</p>
+<hr>
+<section>
+    <h2 class="text-center">WÄHLE JETZT DEINE ZEIT AUS</h2>
+    <div class="row" style="justify-content: center; ">
+        <div class="col" style="padding-left: 30%">
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownAgeButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Zeit
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownAgeButton">
+                    <a class="dropdown-item" href="#">9:00 - 11:00</a>
+                    <a class="dropdown-item" href="#">15:00 - 17:30</a>
+                    <a class="dropdown-item" href="#">18:00 - 19:30</a>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="padding-right: 30%;">
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownAgeButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Wochentag
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownAgeButton">
+                    <a class="dropdown-item" href="#">Montag</a>
+                    <a class="dropdown-item" href="#">Mittwoch</a>
+                    <a class="dropdown-item" href="#">Donnerstag</a>
+                    <a class="dropdown-item" href="#">Samstag</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+<section>
+    <h2 class="text-center">BEI FRAGEN KONTAKTIERE DEIN TIERHEIM</h2>
+    <div class="row row-cols-2" style="justify-content: center">
+        <div class="col" style="padding-left: 30%">
+            <img src="Images/" class="img-fluid" alt="Kontakt">Tierheim <br>
+            <img src="Images/" class="img-fluid" alt="Adresse">Vixröder Str. 16, 35396 Gießen<br>
+            <img src="Images/" class="img-fluid" alt="Mail">TierheimGießen@gmail.com<br>
+            <img src="Images/" class="img-fluid" alt="Tel">0641-33674<br>
+        </div>
+        <div class="col" style="padding-right: 30%">
+            <div class="text-left">Schreibe eine Nachricht</div>
+            <form>
+                <label for="search"><input class="form-control-lg" id="eingabe" name="search" type="text"></label>
+            </form>
+            <br>
+            <div class="align-items-end">
+                <button class="btn" type="button" style="object-position: right">Senden</button>
+            </div>
+        </div>
+</section>
+
+</body>
+</html>
