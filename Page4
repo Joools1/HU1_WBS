@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Pick a pet</title>
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+<body>
+<section>
+    <img src="Images/Katzenpfote-UeberUns.jpg" class="img-fluid" alt="Katzenpfote">
+</section>
+<section class="container-md">
+    <div>
+        <p><br></p>
+        <h2 style="text-align: center">ÜBER UNS</h2>
+        <p style="text-align: center">„Pick a Pet“ ist ein kundenorientiertes Dienstleistungsunternehmen. Das <br>
+            Team rund um „Pick a Pet“ besteht aus 5 Personen. Die Grundidee basiert<br>
+            auf der Vermittlung von Tieren aus dem Tierheim. Die Besonderheit des<br>
+            Angebots liegt in der Unverbindlichkeit, da über “Pick a Pet” lediglich<br>
+            Zeiträume gebucht werden, die der Nutzer flexibel mit dem Tier verbringen<br>
+            kann. Hierbei wird in zwei Kategorien unterschieden:<br>
+            “Walk with a Dog” und “Cuddle a Cat”.</p>
+    </div>
+</section>
+<section>
+    <div class="card-group" style="padding-left: 15%; padding-right: 15%">
+        <div class="row row-cols-2">
+            <div class="card mb-3" style="min-width: 18rem;">
+                <img src="Images/CardCat.jpg" class="img-fluid" alt="Katze">
+            </div>
+            <div class="card mb-3" style="min-width: 18rem;">
+                <div class="card-body">
+                    <div class="text-center">
+                        <h6>WIR VERMITTELN ZEIT MIR IHREN TIEREN</h6>
+                    </div>
+                    <div class="card-text" style="text-align: left">
+                        <p style="padding-left: 20%; padding-right: 20%">
+                            „Pick a Pet“ setzt sich seit
+                            Jahren für Hunde und Katzen ein
+                            und ist sehr stolz darauf, schon
+                            etlichen Tieren geholfen zu haben
+                            ein Zuhause zu finden.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="card mb-3" style="min-width: 18rem;">
+                <div class="card-body">
+                    <div class="text-center">
+                        <h6>KRISEN ERFORDERN ZUSAMMENHALT</h6>
+                    </div>
+                    <div class="text-left">
+                        <p style="padding-left: 20%; padding-right: 20%">
+                            Gerade in der Corona-Zeit, ist
+                            es wichtig zusammen zu halten
+                            und füreinander da zu sein. Wir
+                            bedanken uns für alle
+                            gesammelten
+                            Spenden und bei jedem einzelnen
+                            Kunden.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="min-width: 18rem;">
+                <img src="Images/CardHund.jpg" class="img-fluid" alt="Hund">
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
