@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+}
+
+@font-face {
+    font-family: 'Amatic SC', cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+}
+
+body{background-color: #F7F9FA}
+hr{background-color: #756B5B}
+h5{color: #756B5B; font-family: 'Montserrat', sans-serif}
+h2{ font-family: 'Montserrat', sans-serif; color: #756B5B}
+p{color: #756B5B}
+.card {
+    text-align: center;
+    background-color: #ECF1F5;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 5%;
+    border: transparent;
+    color: #756B5B;
+}
+.card-title{background-color: white}
+.card-img-top{height: 40%}
+.card-text{height: 40%}
+.card-group{alignment: center}
+
+#more{text-align: center;
+    background-color: #756B5B;
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%}
+
+#dropdownAgeButton{ color: #756B5B; background-color: white; padding: 2px; margin-bottom: 20%}
+
+
+.btn{text-align: center;
+    background-color: #756B5B;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0}
+
+.card.col.img-fluid{height: 50%; width: 50%}
+
+
+/*
+#ECF1F5 //grau
+#786E5E //braun
+#F7F9FA //weiss
+#756B5B //braun
+*/
